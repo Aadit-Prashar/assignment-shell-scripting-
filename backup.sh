@@ -16,8 +16,8 @@ if [ ! -d "$target_path" ]; then
   exit 1 # exit with an error status of 1 , abnormal termination
  fi 
 # path of the backup directory and logs
-backup_path="/home/aadit /backup/directories" 
-log_path="/home/aadit /backup/logs" 
+backup_path="/home/aadit_prashar/backup/directories"
+log_path="/home/aadit_prashar/backup/logs"
 
 # current date and time (for folder name and log) 
 timestamp=$(date +"%Y-%m-%d_%H:%M:%S") 
