@@ -11,8 +11,10 @@ fi
 # Initialise the file URL with the first argument 
 url="$1" 
 
-# Predefined directory for downloads download_dir="C:\Users\DELL\Downloads" 
-# Log file log_file C:\Users\DELL\Downloads/download_log.txt" 
+# Predefined directory for downloads 
+download_dir="/home/aadit_prashar/downloads" 
+# Log file 
+log_file="/home/aadit_prashar/downloads/download_log.txt" 
 
 # Create directory if it doesn’t exist
 mkdir -p "$download_dir" 
